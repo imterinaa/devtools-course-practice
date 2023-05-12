@@ -1,6 +1,7 @@
 // Copyright 2023 Terina Alina
 
 #include <gtest/gtest.h>
+#include <cmath>
 #include "include/Function_Eyler.h"
 
 TEST(Terina_Alina_EylerTest, can_check_the_multiplicativity_property) {
@@ -40,8 +41,8 @@ TEST(Terina_Alina_EylerTest, can_check_the_property_of_eyler_function) {
     Function_Eyler f1;
     Function_Eyler f2;
 
-    int elem1 = std::pow(2, 20);
-    int elem2 = std::pow(2, 19);
+    int elem1 = pow(2, 20);
+    int elem2 = pow(2, 19);
 
     EXPECT_EQ(elem2 , f1.Function_Euler(elem1));
 }
@@ -52,7 +53,7 @@ TEST(Terina_Alina_EylerTest, can_check_the_property_of_Ferma_small_theorem) {
 
     int a = 7;
     int b = 5;
-    int elem1 = std::pow(a, f.Function_Euler(b));
+    int elem1 = pow(a, f.Function_Euler(b));
     int res = elem1 % b;
 
     EXPECT_EQ(1, res);
@@ -63,7 +64,7 @@ TEST(Terina_Alina_EylerTest, can_check_the_property_of_Ferma_small_theorem_1) {
 
     int a = 21;
     int b = 10;
-    int elem1 = std::pow(a, f.Function_Euler(b));
+    int elem1 = pow(a, f.Function_Euler(b));
     int res = elem1 % b;
 
     EXPECT_EQ(1, res);
