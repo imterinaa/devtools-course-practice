@@ -36,6 +36,11 @@ TEST(Terina_Alina_EylerTest, can_count_the_function_from_huge_number) {
     EXPECT_EQ(4027392, f.Function_Euler(elem));
 }
 
+TEST(Terina_Alina_EylerTest, cant_calculate_negative) {
+    Function_Eyler f;
+    EXPECT_ANY_THROW(f.Function_Euler(-10));
+}
+
 TEST(Terina_Alina_EylerTest, can_check_the_property_of_eyler_function) {
     // phi(2^20)= 2^(20-1);
     Function_Eyler f1;
