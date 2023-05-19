@@ -24,7 +24,8 @@ int Function_Eyler::Function_Euler(int n) {
                 }
             }
         } else {
-            throw n;
+          throw std::invalid_argument(
+        "Invalid value of argument.Must be positive");
         }
 
         return c;
