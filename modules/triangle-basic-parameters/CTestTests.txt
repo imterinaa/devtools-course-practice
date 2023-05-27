@@ -4,49 +4,49 @@
 
 set(prefix "${MODULE}")
 
-add_test(NAME ${prefix}_can_run
+add_test(NAME ${prefix}_can_launch
     COMMAND ${APPLICATION})
-set_tests_properties(${prefix}_can_run PROPERTIES
+set_tests_properties(${prefix}_can_launch PROPERTIES
     LABELS "${MODULE}")
 
-add_test(NAME ${prefix}_print_help
+add_test(NAME ${prefix}_print_clue
     COMMAND ${APPLICATION})
-set_tests_properties (${prefix}_print_help PROPERTIES
-    PASS_REGULAR_EXPRESSION "This is an application to demonstrate "
+set_tests_properties (${prefix}_print_clue PROPERTIES
+    PASS_REGULAR_EXPRESSION "Calculation of the main parameters of a triangle"
     LABELS "${MODULE}")
 
-add_test(NAME ${prefix}_run_with_multiple_arguments
+add_test(NAME ${prefix}_can_launch_with_diff_arguments
     COMMAND ${APPLICATION} 0,0 1,1 2,0 perimeter)
-set_tests_properties(${prefix}_run_with_multiple_arguments PROPERTIES
+set_tests_properties(${prefix}_can_launch_with_diff_arguments PROPERTIES
     PASS_REGULAR_EXPRESSION "4.828427"
     LABELS "${MODULE}")
 
-add_test(NAME ${prefix}_run_with_wrong_amount_of_arguments_1
+add_test(NAME ${prefix}_run_with_bad_number_of_arguments
     COMMAND ${APPLICATION} 0,0 0,0 0,0 s 5 1)
-set_tests_properties(${prefix}_run_with_wrong_amount_of_arguments_1 PROPERTIES
-    PASS_REGULAR_EXPRESSION "Error: too many arguments"
+set_tests_properties(${prefix}_run_with_bad_number_of_arguments PROPERTIES
+    PASS_REGULAR_EXPRESSION "Text of error: arguments more than its needed"
     LABELS "${MODULE}")
 
-add_test(NAME ${prefix}_run_with_wrong_amount_of_arguments_2
+add_test(NAME ${prefix}_run_with_bad_amount_of_arguments
     COMMAND ${APPLICATION} 0,0 0,0 0,0)
-set_tests_properties(${prefix}_run_with_wrong_amount_of_arguments_2 PROPERTIES
-    PASS_REGULAR_EXPRESSION "Error: too few arguments"
+set_tests_properties(${prefix}_run_with_bad_amount_of_arguments PROPERTIES
+    PASS_REGULAR_EXPRESSION "Text of error: arguments not enough"
     LABELS "${MODULE}")
 
-add_test(NAME ${prefix}_can_find_perimeter
+add_test(NAME ${prefix}_can_calc_perimeter
     COMMAND ${APPLICATION} 0,0 1,1 2,0 perimeter)
-set_tests_properties(${prefix}_can_find_perimeter PROPERTIES
+set_tests_properties(${prefix}_can_calc_perimeter PROPERTIES
     PASS_REGULAR_EXPRESSION "4.828427"
     LABELS "${MODULE}")
 
-add_test(NAME ${prefix}_can_find_square
+add_test(NAME ${prefix}_can_calc_square
     COMMAND ${APPLICATION} -1,1 0,5 1,1 square)
-set_tests_properties(${prefix}_can_find_square PROPERTIES
+set_tests_properties(${prefix}_can_calc_square PROPERTIES
     PASS_REGULAR_EXPRESSION "4"
     LABELS "${MODULE}")
 
-add_test(NAME ${prefix}_can_find_height
+add_test(NAME ${prefix}_can_calc_height
     COMMAND ${APPLICATION} 1,3 5,10 9,9 height 1)
-set_tests_properties(${prefix}_can_find_height PROPERTIES
+set_tests_properties(${prefix}_can_calc_height PROPERTIES
     PASS_REGULAR_EXPRESSION "32"
     LABELS "${MODULE}")

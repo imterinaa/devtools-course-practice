@@ -2,7 +2,7 @@
 
 #include <string>
 
-#include "include/triangle_app.h"
+#include "include/basic_param_tr.h"
 
 int main(int argc, char** argv) {
 	application app;
