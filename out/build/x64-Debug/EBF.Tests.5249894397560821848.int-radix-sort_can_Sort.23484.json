@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "int-radix-sort_can_Sort",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/int-radix-sort.exe",
+    "Arguments": [
+      "3",
+      "4",
+      "1",
+      "3"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/int-radix-sort",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/int-radix-sort/CTestTests.txt",
+    "LineNumber": 39,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "{ 1, 3, 3, 4}"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "int-radix-sort.exe (bin\\int-radix-sort.exe)",
+    "TimeoutInMs": -1
+  }
+]

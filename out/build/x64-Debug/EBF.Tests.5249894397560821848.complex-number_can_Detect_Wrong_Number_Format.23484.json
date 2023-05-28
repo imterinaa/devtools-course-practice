@@ -1,0 +1,24 @@
+[
+  {
+    "Name": "complex-number_can_Detect_Wrong_Number_Format",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/complex-number.exe",
+    "Arguments": [
+      "1",
+      "ip",
+      "2",
+      "3",
+      "+"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/complex-number",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/complex-number/CTestTests.txt",
+    "LineNumber": 31,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Wrong number format!"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "complex-number.exe (bin\\complex-number.exe)",
+    "TimeoutInMs": -1
+  }
+]

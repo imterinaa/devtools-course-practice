@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Dijkstra_can_Print_Help_Without_Arguments",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/Dijkstra.exe",
+    "Arguments": [],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/Dijkstra",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/Dijkstra/CTestTests.txt",
+    "LineNumber": 14,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": null,
+    "FailRegularExpression": null,
+    "TargetName": "Dijkstra.exe (bin\\Dijkstra.exe)",
+    "TimeoutInMs": -1
+  }
+]

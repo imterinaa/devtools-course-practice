@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "triangle-basic-parameters_can_launch",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/triangle-basic-parameters.exe",
+    "Arguments": [],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/triangle-basic-parameters",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/triangle-basic-parameters/CTestTests.txt",
+    "LineNumber": 7,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": null,
+    "FailRegularExpression": null,
+    "TargetName": "triangle-basic-parameters.exe (bin\\triangle-basic-parameters.exe)",
+    "TimeoutInMs": -1
+  }
+]

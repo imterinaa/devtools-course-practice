@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "code_vijener_can_Detect_Wrong_Arg_Format",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/code_vijener.exe",
+    "Arguments": [
+      "asd",
+      "1-1",
+      "aaa"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/code_vijener",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/code_vijener/CTestTests.txt",
+    "LineNumber": 31,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Wrong argument format!"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "code_vijener.exe (bin\\code_vijener.exe)",
+    "TimeoutInMs": -1
+  }
+]

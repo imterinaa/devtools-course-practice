@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "areas-of-figures_detect_Incorrect_Number_of_Arguments",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/areas-of-figures.exe",
+    "Arguments": [
+      "2.0",
+      "1.1",
+      "2.2",
+      "3.0"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/areas-of-figures",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/areas-of-figures/CTestTests.txt",
+    "LineNumber": 38,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Input must contain no more than three arguments!"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "areas-of-figures.exe (bin\\areas-of-figures.exe)",
+    "TimeoutInMs": -1
+  }
+]

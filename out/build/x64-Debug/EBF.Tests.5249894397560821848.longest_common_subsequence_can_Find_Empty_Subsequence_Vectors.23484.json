@@ -1,0 +1,25 @@
+[
+  {
+    "Name": "longest_common_subsequence_can_Find_Empty_Subsequence_Vectors",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/longest_common_subsequence.exe",
+    "Arguments": [
+      "3",
+      "3",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/longest_common_subsequence",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/longest_common_subsequence/CTestTests.txt",
+    "LineNumber": 63,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": null,
+    "FailRegularExpression": null,
+    "TargetName": "longest_common_subsequence.exe (bin\\longest_common_subsequence.exe)",
+    "TimeoutInMs": -1
+  }
+]

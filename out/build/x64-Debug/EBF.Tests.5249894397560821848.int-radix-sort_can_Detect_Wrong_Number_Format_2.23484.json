@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "int-radix-sort_can_Detect_Wrong_Number_Format_2",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/int-radix-sort.exe",
+    "Arguments": [
+      "3",
+      "1",
+      "ps",
+      "3"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/int-radix-sort",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/int-radix-sort/CTestTests.txt",
+    "LineNumber": 31,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Wrong number format!"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "int-radix-sort.exe (bin\\int-radix-sort.exe)",
+    "TimeoutInMs": -1
+  }
+]

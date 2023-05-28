@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "triangle-basic-parameters_print_clue",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/triangle-basic-parameters.exe",
+    "Arguments": [],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/triangle-basic-parameters",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/triangle-basic-parameters/CTestTests.txt",
+    "LineNumber": 12,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "App was created to show coordinates points of verts "
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "triangle-basic-parameters.exe (bin\\triangle-basic-parameters.exe)",
+    "TimeoutInMs": -1
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "triangle-basic-parameters_can_launch_with_diff_arguments",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/triangle-basic-parameters.exe",
+    "Arguments": [
+      "0,0",
+      "1,1",
+      "2,0",
+      "perimeter"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/triangle-basic-parameters",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/triangle-basic-parameters/CTestTests.txt",
+    "LineNumber": 18,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "4.828427"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "triangle-basic-parameters.exe (bin\\triangle-basic-parameters.exe)",
+    "TimeoutInMs": -1
+  }
+]

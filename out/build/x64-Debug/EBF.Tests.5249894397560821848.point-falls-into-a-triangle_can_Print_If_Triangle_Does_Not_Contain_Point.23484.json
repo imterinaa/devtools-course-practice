@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "point-falls-into-a-triangle_can_Print_If_Triangle_Does_Not_Contain_Point",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/point-falls-into-a-triangle.exe",
+    "Arguments": [
+      "triangle",
+      "0",
+      "0",
+      "0",
+      "1",
+      "1",
+      "0",
+      "point",
+      "1",
+      "1"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/point-falls-into-a-triangle",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/point-falls-into-a-triangle/CTestTests.txt",
+    "LineNumber": 30,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Triangle does not contain point"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "point-falls-into-a-triangle.exe (bin\\point-falls-into-a-triangle.exe)",
+    "TimeoutInMs": -1
+  }
+]

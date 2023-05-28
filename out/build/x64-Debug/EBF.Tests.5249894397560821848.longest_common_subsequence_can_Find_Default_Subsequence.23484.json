@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "longest_common_subsequence_can_Find_Default_Subsequence",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/longest_common_subsequence.exe",
+    "Arguments": [
+      "7",
+      "4",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "9",
+      "8",
+      "7",
+      "3"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/longest_common_subsequence",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/longest_common_subsequence/CTestTests.txt",
+    "LineNumber": 79,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "9 8 7 3"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "longest_common_subsequence.exe (bin\\longest_common_subsequence.exe)",
+    "TimeoutInMs": -1
+  }
+]

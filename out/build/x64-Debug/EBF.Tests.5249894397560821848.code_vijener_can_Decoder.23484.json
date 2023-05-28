@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "code_vijener_can_Decoder",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/code_vijener.exe",
+    "Arguments": [
+      "cat",
+      "UTNFEGV",
+      "2"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/code_vijener",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/code_vijener/CTestTests.txt",
+    "LineNumber": 47,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "after Decoder = STUDENT"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "code_vijener.exe (bin\\code_vijener.exe)",
+    "TimeoutInMs": -1
+  }
+]

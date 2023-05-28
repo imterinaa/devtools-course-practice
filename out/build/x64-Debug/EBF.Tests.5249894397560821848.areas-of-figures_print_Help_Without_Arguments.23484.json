@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "areas-of-figures_print_Help_Without_Arguments",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/areas-of-figures.exe",
+    "Arguments": [],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/areas-of-figures",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/areas-of-figures/CTestTests.txt",
+    "LineNumber": 14,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "This application is used to find the areas of figures"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "areas-of-figures.exe (bin\\areas-of-figures.exe)",
+    "TimeoutInMs": -1
+  }
+]

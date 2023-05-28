@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "point-falls-into-a-triangle_print_Error_If_Incorrect_Key",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/point-falls-into-a-triangle.exe",
+    "Arguments": [
+      "triangle",
+      "0",
+      "0",
+      "0",
+      "1",
+      "1",
+      "0",
+      "point",
+      "1",
+      "1",
+      "check"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/point-falls-into-a-triangle",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/point-falls-into-a-triangle/CTestTests.txt",
+    "LineNumber": 38,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Error: unknown key check"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "point-falls-into-a-triangle.exe (bin\\point-falls-into-a-triangle.exe)",
+    "TimeoutInMs": -1
+  }
+]

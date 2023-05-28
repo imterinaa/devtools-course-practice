@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "gronsfeld-cipher_can_Detect_Wrong_Flag",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/gronsfeld-cipher.exe",
+    "Arguments": [
+      "Wrong",
+      "10_0",
+      "aaa"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/gronsfeld-cipher",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/gronsfeld-cipher/CTestTests.txt",
+    "LineNumber": 56,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Flag not a number!"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "gronsfeld-cipher.exe (bin\\gronsfeld-cipher.exe)",
+    "TimeoutInMs": -1
+  }
+]

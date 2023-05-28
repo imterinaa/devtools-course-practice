@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "binary-search_can_Detect_Wrong_Target_Format",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/binary-search.exe",
+    "Arguments": [
+      "a",
+      "2",
+      "1",
+      "2"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/binary-search",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/binary-search/CTestTests.txt",
+    "LineNumber": 79,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Can't parse <search element>"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "binary-search.exe (bin\\binary-search.exe)",
+    "TimeoutInMs": -1
+  }
+]

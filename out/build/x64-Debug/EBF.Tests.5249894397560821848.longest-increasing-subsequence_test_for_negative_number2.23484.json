@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "longest-increasing-subsequence_test_for_negative_number2",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/longest-increasing-subsequence.exe",
+    "Arguments": [
+      "-2",
+      "-1"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/longest-increasing-subsequence",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/longest-increasing-subsequence/CTestTests.txt",
+    "LineNumber": 38,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "-2 -1"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "longest-increasing-subsequence.exe (bin\\longest-increasing-subsequence.exe)",
+    "TimeoutInMs": -1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "Name": "complex-number_can_Divide_Complexs",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/complex-number.exe",
+    "Arguments": [
+      "27",
+      "30",
+      "15",
+      "20",
+      "/"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/complex-number",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/complex-number/CTestTests.txt",
+    "LineNumber": 71,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Real = 1.608 Imaginary = -0.144"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "complex-number.exe (bin\\complex-number.exe)",
+    "TimeoutInMs": -1
+  }
+]

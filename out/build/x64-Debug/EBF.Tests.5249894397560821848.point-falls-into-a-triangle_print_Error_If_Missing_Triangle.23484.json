@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "point-falls-into-a-triangle_print_Error_If_Missing_Triangle",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/point-falls-into-a-triangle.exe",
+    "Arguments": [
+      "point",
+      "0",
+      "0"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/point-falls-into-a-triangle",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/point-falls-into-a-triangle/CTestTests.txt",
+    "LineNumber": 70,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Error: missing triangle parameter"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "point-falls-into-a-triangle.exe (bin\\point-falls-into-a-triangle.exe)",
+    "TimeoutInMs": -1
+  }
+]

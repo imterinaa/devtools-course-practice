@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "string-encoding-Base64_decode_correct_works",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/string-encoding-Base64.exe",
+    "Arguments": [
+      "decode",
+      "c3RyaW5n"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/string-encoding-Base64",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/string-encoding-Base64/CTestTests.txt",
+    "LineNumber": 39,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "string"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "string-encoding-Base64.exe (bin\\string-encoding-Base64.exe)",
+    "TimeoutInMs": -1
+  }
+]

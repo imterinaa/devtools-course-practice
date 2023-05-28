@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "caesar-cipher_can_Decode_One_Word",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/caesar-cipher.exe",
+    "Arguments": [
+      "d",
+      "1",
+      "yjxy"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/caesar-cipher",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/caesar-cipher/CTestTests.txt",
+    "LineNumber": 63,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "test"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "caesar-cipher.exe (bin\\caesar-cipher.exe)",
+    "TimeoutInMs": -1
+  }
+]

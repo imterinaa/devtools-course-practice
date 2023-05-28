@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "complex-number_can_Check_Number_Of_Arguments",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/complex-number.exe",
+    "Arguments": [
+      "1",
+      "2"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/complex-number",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/complex-number/CTestTests.txt",
+    "LineNumber": 23,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "ERROR: Should be 5 arguments."
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "complex-number.exe (bin\\complex-number.exe)",
+    "TimeoutInMs": -1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "Name": "complex-number_can_Detect_Divide_By_Zero",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/complex-number.exe",
+    "Arguments": [
+      "27",
+      "30",
+      "0",
+      "0",
+      "/"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/complex-number",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/complex-number/CTestTests.txt",
+    "LineNumber": 79,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Can't divide by zero"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "complex-number.exe (bin\\complex-number.exe)",
+    "TimeoutInMs": -1
+  }
+]

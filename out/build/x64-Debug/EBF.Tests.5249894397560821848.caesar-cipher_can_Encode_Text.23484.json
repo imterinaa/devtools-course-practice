@@ -1,0 +1,25 @@
+[
+  {
+    "Name": "caesar-cipher_can_Encode_Text",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/caesar-cipher.exe",
+    "Arguments": [
+      "e",
+      "4",
+      "this",
+      "is",
+      "a",
+      "test"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/caesar-cipher",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/caesar-cipher/CTestTests.txt",
+    "LineNumber": 71,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "ymnx nx f yjxy"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "caesar-cipher.exe (bin\\caesar-cipher.exe)",
+    "TimeoutInMs": -1
+  }
+]

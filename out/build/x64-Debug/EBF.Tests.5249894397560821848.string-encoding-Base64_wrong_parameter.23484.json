@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "string-encoding-Base64_wrong_parameter",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/string-encoding-Base64.exe",
+    "Arguments": [
+      "asdf"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/string-encoding-Base64",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/string-encoding-Base64/CTestTests.txt",
+    "LineNumber": 23,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Not correct argument. Should be decode/encode"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "string-encoding-Base64.exe (bin\\string-encoding-Base64.exe)",
+    "TimeoutInMs": -1
+  }
+]

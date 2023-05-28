@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "areas-of-figures_calculate_Cylinder_Area",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/areas-of-figures.exe",
+    "Arguments": [
+      "3.0",
+      "2.0"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/areas-of-figures",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/areas-of-figures/CTestTests.txt",
+    "LineNumber": 62,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Cylinder area is"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "areas-of-figures.exe (bin\\areas-of-figures.exe)",
+    "TimeoutInMs": -1
+  }
+]

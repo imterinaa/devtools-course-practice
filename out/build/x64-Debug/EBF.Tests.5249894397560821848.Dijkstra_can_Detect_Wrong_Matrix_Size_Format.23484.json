@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Dijkstra_can_Detect_Wrong_Matrix_Size_Format",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/Dijkstra.exe",
+    "Arguments": [
+      "3",
+      "4",
+      "a"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/Dijkstra",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/Dijkstra/CTestTests.txt",
+    "LineNumber": 31,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "ERROR: Cant parse <matrix size>"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "Dijkstra.exe (bin\\Dijkstra.exe)",
+    "TimeoutInMs": -1
+  }
+]

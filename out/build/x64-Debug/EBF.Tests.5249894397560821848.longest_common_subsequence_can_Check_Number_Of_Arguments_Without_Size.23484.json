@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "longest_common_subsequence_can_Check_Number_Of_Arguments_Without_Size",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/longest_common_subsequence.exe",
+    "Arguments": [
+      "0"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/longest_common_subsequence",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/longest_common_subsequence/CTestTests.txt",
+    "LineNumber": 31,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "ERROR: Shoud be at least 2 arguments"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "longest_common_subsequence.exe (bin\\longest_common_subsequence.exe)",
+    "TimeoutInMs": -1
+  }
+]

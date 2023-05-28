@@ -1,0 +1,25 @@
+[
+  {
+    "Name": "hashmap_can_not_insert",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/hashmap.exe",
+    "Arguments": [
+      "2",
+      "3",
+      "insert",
+      "2",
+      "3",
+      "insert"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/hashmap",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/hashmap/CTestTests.txt",
+    "LineNumber": 54,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "There is already such an element"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "hashmap.exe (bin\\hashmap.exe)",
+    "TimeoutInMs": -1
+  }
+]

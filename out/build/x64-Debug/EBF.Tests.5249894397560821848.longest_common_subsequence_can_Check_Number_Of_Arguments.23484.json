@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "longest_common_subsequence_can_Check_Number_Of_Arguments",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/longest_common_subsequence.exe",
+    "Arguments": [
+      "1",
+      "1",
+      "3"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/longest_common_subsequence",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/longest_common_subsequence/CTestTests.txt",
+    "LineNumber": 23,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "ERROR: Should be 4 arguments."
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "longest_common_subsequence.exe (bin\\longest_common_subsequence.exe)",
+    "TimeoutInMs": -1
+  }
+]

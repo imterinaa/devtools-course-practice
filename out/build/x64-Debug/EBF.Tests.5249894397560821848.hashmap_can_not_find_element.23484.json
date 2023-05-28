@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "hashmap_can_not_find_element",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/hashmap.exe",
+    "Arguments": [
+      "5",
+      "6",
+      "find"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/hashmap",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/hashmap/CTestTests.txt",
+    "LineNumber": 78,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "Record not found"
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "hashmap.exe (bin\\hashmap.exe)",
+    "TimeoutInMs": -1
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "caesar-cipher_can_Detect_Wrong_Operation",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/caesar-cipher.exe",
+    "Arguments": [
+      "r",
+      "1",
+      "word"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/caesar-cipher",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/caesar-cipher/CTestTests.txt",
+    "LineNumber": 31,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": [
+      "<op_type> must be only "
+    ],
+    "FailRegularExpression": null,
+    "TargetName": "caesar-cipher.exe (bin\\caesar-cipher.exe)",
+    "TimeoutInMs": -1
+  }
+]

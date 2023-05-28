@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "stack_can_Push_Elements",
+    "Command": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/bin/stack.exe",
+    "Arguments": [
+      "push",
+      "10",
+      "-5"
+    ],
+    "WorkingDirectory": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/out/build/x64-Debug/modules/stack",
+    "ProjectFile": "C:/Users/Dedmo/Source/Repos/devtools-course-practice/modules/stack/CTestTests.txt",
+    "LineNumber": 38,
+    "Environment": {},
+    "ExpectsFailure": false,
+    "PassRegularExpression": null,
+    "FailRegularExpression": null,
+    "TargetName": "stack.exe (bin\\stack.exe)",
+    "TimeoutInMs": -1
+  }
+]
