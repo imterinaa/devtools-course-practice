@@ -12,7 +12,7 @@ set_tests_properties(${prefix}_can_launch PROPERTIES
 add_test(NAME ${prefix}_print_clue
     COMMAND ${APPLICATION})
 set_tests_properties (${prefix}_print_clue PROPERTIES
-    PASS_REGULAR_EXPRESSION "Calculation of the main parameters of a triangle"
+    PASS_REGULAR_EXPRESSION "This is an application to demonstrate coordinates of the vertices of "
     LABELS "${MODULE}")
 
 add_test(NAME ${prefix}_can_launch_with_diff_arguments

@@ -8,7 +8,7 @@
 #include "./lebedinskiy_ilya_triangle_basic_params.h"
 
 class application {
-public:
+ public:
     struct arguments {
         std::pair<float, float> a;
         std::pair<float, float> b;
@@ -17,11 +17,11 @@ public:
         int side{ 0 };
     };
 
-public:
+ public:
     std::string operator()(int argc, char** argv);
 
-private:
-    std::string help(const std::string& appname);
+ private:
+    std::string help(const std::string& an);
     bool validate(const std::string& str);
-    arguments parse_args(int argc, char** argv);
+    arguments arg_parse(int argc, char** argv);
 };

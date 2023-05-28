@@ -5,7 +5,7 @@
 #include "include/basic_param_tr.h"
 
 int main(int argc, char** argv) {
-	application app;
-	std::string output = app(argc, argv);
-	printf("%s\n", output.c_str());
+  application app;
+  std::string output = app(argc, argv);
+  printf("%s\n", output.c_str());
 }

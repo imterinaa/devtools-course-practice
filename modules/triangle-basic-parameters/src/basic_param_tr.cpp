@@ -20,7 +20,7 @@ std::string application::operator()(int argc, char** argv) {
         return "Text of error: arguments more than its needed";
     }
     arguments args;
-    if (validate(argv[0])) args = parse_args(argc, argv);
+    if (validate(argv[0])) args = arg_parse(argc, argv);
     Triangle triangle(args.a, args.b, args.c);
     if (args.operation == "perimeter") result = triangle.get_perimeter();
     if (args.operation == "square") result = triangle.get_square();
@@ -28,11 +28,11 @@ std::string application::operator()(int argc, char** argv) {
     return std::to_string(result);
 }
 
-std::string application::help(const std::string& appname) {
-    return "This is an application to demonstrate coordinates of the vertices of "
+std::string application::help(const std::string& an) {
+    return "App was created to show coordinates points of verts "
         "and calculation of the main parameters of a triangle "
-        "the triangle\n in format :\n" +
-        appname +
+        "the triangle\n how use :\n" +
+        an +
         "(x1,y1) (x2,y2) (x3,y3) <operation> <side for height "
         "operation>\n Where <operation> is:\n1. "
         "perimeter\n2. "
@@ -41,7 +41,7 @@ std::string application::help(const std::string& appname) {
 
 bool application::validate(const std::string& str) { return true; }
 
-application::arguments application::parse_args(int argc, char** argv) {
+application::arguments application::arg_parse(int argc, char** argv) {
     arguments args;
     for (int i = 1; i <= 3; i++) {
         std::string dot = argv[i];
